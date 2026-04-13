@@ -1,18 +1,20 @@
 # Vienna Interview
 
-Goal:
-Reproduce one assigned paper analytically and numerically, then prepare a presentation.
+# mHz-Linewidth Laser Interview Code
 
-## Structure
-- src/: clean implementation
-- tests/: validation checks
-- figures/: reproduced figures
-- presentation/: presentation outline and notes
+This repository contains the code used to reproduce and explore results for the bad-cavity superradiant laser model discussed in the assigned paper.
 
-## Main tasks
-1. Read and summarize the paper
-2. Identify key equations
-3. Reproduce derivations
-4. Implement numerical model
-5. Reproduce figures/results
-6. Prepare presentation
+## Repository structure
+
+- `src/` — implementation of the model, solver, plotting, and utilities
+- `tests/` — validation tests
+- `requirements.txt` — Python dependencies
+
+## Setup
+
+```bash
+git clone https://github.com/hrish573/mhz-linewidth-laser-interview.git
+cd mhz-linewidth-laser-interview
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
