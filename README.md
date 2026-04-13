@@ -10,6 +10,7 @@ This repository contains the code used to reproduce and explore results for the 
 - `tests/` — validation tests
 - `requirements.txt` — Python dependencies
 
+
 ## Setup
 
 ```bash
@@ -19,6 +20,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
+```
 
 ## Run
 python -m src.main
